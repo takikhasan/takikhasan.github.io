@@ -13,8 +13,11 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "deploy": "gatsby build && git subtree push --prefix public origin deploy",
     "build": "gatsby build",
+    "commit-current-branch-changes": "git add . && git commit -m 'Update'",
+    "push-current-branch-to-source": "git push origin source",
+    "push-current-branch-public-folder-to-deploy": "git subtree push --prefix public origin deploy",
+    "deploy": "npm run build && npm run commit-current-branch-changes && npm run push-current-branch-to-source && npm run push-current-branch-public-folder-to-deploy",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

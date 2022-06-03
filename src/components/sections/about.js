@@ -149,7 +149,7 @@ const About = () => {
               <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
               <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
               main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
+              experiences at <a href="https://enosisbd.com/">Enosis Solutions</a> for a variety of
               clients.
             </p>
 
