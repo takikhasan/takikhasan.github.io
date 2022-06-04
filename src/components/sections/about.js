@@ -143,7 +143,7 @@ const About = () => {
             </p>
 
             <p>
-              I've participated and done well in numerous programming competitions over the years, 
+              I've participated and done well in numerous programming competitions over the years,
               which has groomed me to be efficient and thorough in every aspect of life.
             </p>
 
